@@ -29,6 +29,14 @@ body{
     background-color: #EEEDEE;
 }
 
+.hideAll{
+    display: block;
+}
+
+.rotateDevice{
+display: none;
+}
+
 .navbar{
     background-color: #404354;
     position: relative;

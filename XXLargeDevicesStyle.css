@@ -1,5 +1,5 @@
-/*  XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
+/*  XX-Large devices (larger desktops, 1200px and up) */
+@media (min-width: 1200px){
     .navbar{
         height: 7.5vh;
     }
@@ -9,7 +9,7 @@
     }
 
     .firstIntroductionPage, .secondIntroductionPage{
-        height: 70vw;
+        height: 75vw;
     }
 
     .footer{
@@ -18,15 +18,16 @@
 
     .firstIntroductionPage p{
         top: 30vw;
-        left: 6vw;
+        left: 6.5vw;
+        width: 38.25vw;
         font-size: 4vw;
     }
 
     .secondIntroductionPage p{
-        top: 15vw;
-        left: 54vw;
-        width: 42.5vw;
-        font-size: 1.75vw;
+        top: 25vw;
+        left: 52vw;
+        width: 40vw;
+        font-size: 2.25vw;
     }
 
     .mobileBlogs{
