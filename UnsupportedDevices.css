@@ -1,41 +1,41 @@
 @media (min-width: 576px) and (max-width: 1199.98px) {
-    .hideAll {
-        display: none;
+  .hideAll {
+    display: none;
+  }
+
+  .rotateDevice {
+    display: block;
+  }
+
+  .phone {
+    position: relative;
+    margin: auto;
+    height: 30vh;
+    width: 8vw;
+    top: 30vh;
+    border: 0.5vh solid #404354;
+    border-radius: 2vh;
+    animation: rotateYourDeviceAnimation 1s ease-in-out infinite alternate;
+  }
+
+  .rotateMessage {
+    position: relative;
+    top: 31.8vh;
+    color: #404354;
+    font-size: 2.5vw;
+  }
+
+  @keyframes rotateYourDeviceAnimation {
+    0% {
+      transform: rotate(0deg);
     }
 
-    .rotateDevice {
-        display: block;
+    50% {
+      transform: rotate(-90deg);
     }
 
-    .phone {
-        position: relative;
-        margin: auto;
-        height: 30vh;
-        width: 8vw;
-        top: 30vh;
-        border: 0.5vh solid #404354;
-        border-radius: 2vh;
-        animation: rotateYourDeviceAnimation 1s ease-in-out infinite alternate;
+    100% {
+      transform: rotate(-90deg);
     }
-
-    .rotateMessage {
-        position: relative;
-        top: 31.8vh;
-        color: #404354;
-        font-size: 2.5vw;
-    }
-
-    @keyframes rotateYourDeviceAnimation {
-        0% {
-            transform: rotate(0deg)
-        }
-
-        50% {
-            transform: rotate(-90deg)
-        }
-
-        100% {
-            transform: rotate(-90deg)
-        }
-    }
+  }
 }

@@ -1,60 +1,61 @@
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .firstIntroductionPage, .secondIntroductionPage{
-        background-size: 100%;
-        height: 100vw;
-    }
+  .firstIntroductionPage,
+  .secondIntroductionPage {
+    background-size: 100%;
+    height: 100vw;
+  }
 
-    .footer{
-        height: 35vh;
-    }
+  .footer {
+    height: 35vh;
+  }
 
-    .firstIntroductionPage p{
-        top: 45vw;
-        left: 3vw;
-        width: 75vw;
-        font-size: 8vw;
-    }
+  .firstIntroductionPage p {
+    top: 45vw;
+    left: 3vw;
+    width: 75vw;
+    font-size: 8vw;
+  }
 
-    .secondIntroductionPage p{
-        top: 32vw;
-        left: 50vw;
-        width: 47.5vw;
-        font-size: 4vw;
-    }
+  .secondIntroductionPage p {
+    top: 32vw;
+    left: 50vw;
+    width: 47.5vw;
+    font-size: 4vw;
+  }
 
-    .desktopBlogs{
-        display: none;
-    }
+  .desktopBlogs {
+    display: none;
+  }
 
-    .cardDiv{
-        position: relative;
-        cursor: pointer;
-        top: 2vh;
-        display: inline-block;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        background-color: #E6E6E6;
-    }
+  .cardDiv {
+    position: relative;
+    cursor: pointer;
+    top: 2vh;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #e6e6e6;
+  }
 
-    .cardDiv img {
-        position: relative;
-        height: 35vh;
-    }
+  .cardDiv img {
+    position: relative;
+    height: 35vh;
+  }
 
-    .cardDiv p{
-        position: relative;
-        color: #404354;
-    }
+  .cardDiv p {
+    position: relative;
+    color: #404354;
+  }
 
-    .cardBlogTitle{
-        top: 1.25vh;
-        left: 0.5vw;
-        font-size: 2.25vh;
-    }
+  .cardBlogTitle {
+    top: 1.25vh;
+    left: 0.5vw;
+    font-size: 2.25vh;
+  }
 
-    .cardBlogDate{
-        top: 0.25vh;
-        left: 0.5vw;
-        font-size: 2vh;
-    }
+  .cardBlogDate {
+    top: 0.25vh;
+    left: 0.5vw;
+    font-size: 2vh;
+  }
 }
