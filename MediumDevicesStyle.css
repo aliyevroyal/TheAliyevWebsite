@@ -1,0 +1,60 @@
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .firstIntroductionPage, .secondIntroductionPage{
+        background-size: 100%;
+        height: 100vw;
+    }
+
+    .footer{
+        height: 25vh;
+    }
+
+    .firstIntroductionPage p{
+        top: 40vw;
+        left: 1.5vw;
+        width: 65vw;
+        font-size: 7vw;
+    }
+
+    .secondIntroductionPage p{
+        top: 32vw;
+        left: 55vw;
+        width: 42vw;
+        font-size: 3vw;
+    }
+
+    .desktopBlogs{
+        display: none;
+    }
+
+    .cardDiv{
+        position: relative;
+        top: 2vh;
+        cursor: pointer;
+        display: inline-block;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        background-color: #E6E6E6;
+    }
+
+    .cardDiv img {
+        position: relative;
+        height: 55vh;
+    }
+
+    .cardDiv p{
+        position: relative;
+        color: #404354;
+    }
+
+    .cardBlogTitle{
+        top: 1.25vh;
+        left: 0.5vw;
+        font-size: 2.25vh;
+    }
+
+    .cardBlogDate{
+        top: 0.25vh;
+        left: 0.5vw;
+        font-size: 2vh;
+    }
+}

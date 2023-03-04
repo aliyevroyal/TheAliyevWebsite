@@ -1,0 +1,86 @@
+@font-face {
+    font-family: RobotoLight;
+    src: url("resources/RobotoLight.ttf");
+}
+
+@font-face {
+    font-family: GrenzeGotischMedium;
+    src: url("resources/GrenzeGotisch-Medium.ttf");
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: RobotoLight;
+    color: #EEEDEE;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-color: #EEEDEE;
+}
+
+.navbar{
+    background-color: #404354;
+    position: relative;
+}
+
+.navbar-brand, .navbar-brand:hover{
+    cursor: auto;
+    color: #EEEDEE;
+    font-family: GrenzeGotischMedium;
+    font-size: 4vh;
+}
+
+.nav-link, .nav-link:hover{
+    color: #EEEDEE;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(238, 237, 238)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item{
+    padding-right: 5vw;
+}
+
+.firstIntroductionPage{
+    top: 0vh;
+    right: 0vw;
+    width: 100vw;
+    background: url("resources/IntroductionPageBackgroundImage1.png") no-repeat 100% 0%;
+}
+
+.firstIntroductionPage p{
+    position: relative;
+    color: #404354;
+}
+
+.secondIntroductionPage{
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    background: url("resources/IntroductionPageBackgroundImage2.png") no-repeat 0% 0%;
+}
+
+.secondIntroductionPage p{
+    position: relative;
+    color: #404354;
+    text-align: justify;
+}
+
+.footer{
+    bottom: 0vh;
+    left: 0vw;
+    width: 100vw;
+    background-color: #404354;
+}
