@@ -16,6 +16,24 @@
   </head>
   <body>
   <div class="hideAll">
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal">Portfolio</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Please, write me an email to be sent my portfolio.
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-secondary" href="mailto:royal.alyv@gmail.com" target="_blank">Send a Mail</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <nav class="navbar navbar-expand-lg" style="position: relative;">
       <a class="navbar-brand" href="#">Royal Aliyev</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +42,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" data-toggle="modal" data-target="#modal" href="#">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">CV</a>
